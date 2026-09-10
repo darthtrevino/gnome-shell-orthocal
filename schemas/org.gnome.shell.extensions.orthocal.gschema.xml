@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.orthocal" path="/org/gnome/shell/extensions/orthocal/">
+    <key name="tradition" type="s">
+      <choices>
+        <choice value="slavic"/>
+        <choice value="greek"/>
+      </choices>
+      <default>'slavic'</default>
+      <summary>Liturgical tradition</summary>
+    </key>
+    <key name="calendar" type="s">
+      <choices>
+        <choice value="gregorian"/>
+        <choice value="julian"/>
+      </choices>
+      <default>'gregorian'</default>
+      <summary>Calendar</summary>
+    </key>
+    <key name="translation" type="s">
+      <choices>
+        <choice value="kjv"/>
+        <choice value="lxx2012-web"/>
+      </choices>
+      <default>'kjv'</default>
+      <summary>Scripture translation</summary>
+    </key>
+    <key name="show-fast-level" type="b">
+      <default>true</default>
+      <summary>Show the fasting level beside the Orthodox cross</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'right'</default>
+      <summary>Panel position</summary>
+    </key>
+    <key name="refresh-hours" type="i">
+      <range min="1" max="24"/>
+      <default>6</default>
+      <summary>Refresh interval in hours</summary>
+    </key>
+  </schema>
+</schemalist>

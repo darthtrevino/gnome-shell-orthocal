@@ -1,0 +1,9 @@
+{
+  "uuid": "orthocal@darthtrevino.github.com",
+  "name": "Orthocal",
+  "description": "Orthodox calendar, fasting, saints, and readings from Orthocal.info",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.orthocal",
+  "url": "https://github.com/darthtrevino/gnome-shell-orthocal",
+  "version": 5
+}
