@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "darthtrevino"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "Orthodox calendar, fasting, saints, and readings from Orthocal.info",
+        "EnabledByDefault": true,
+        "Icon": "view-calendar",
+        "Id": "com.github.darthtrevino.orthocal",
+        "License": "MIT",
+        "Name": "Orthocal",
+        "Version": "1.0",
+        "Website": "https://github.com/darthtrevino/gnome-shell-orthocal"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
